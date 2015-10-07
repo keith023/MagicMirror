@@ -1,12 +1,12 @@
 // for navigator language
-var lang = window.navigator.language;
+// var lang = window.navigator.language;
 // you can change the language
-// var lang = 'en';
+var lang = 'en'; //For now, force english
 
 //change weather params here:
 //units: metric or imperial
 var weatherParams = {
-    'q':'Baarn,Netherlands',
+    'q':'Columbia,MD',
     'units':'metric',
     'lang':lang
 };
